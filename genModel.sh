@@ -12,11 +12,11 @@ tables=$2
 modeldir=./genModel
 
 # 数据库配置
-host=47.100.21.38
+host=localhost
 port=3306
 dbname=zero_demo_$1
-username=root
-passwd=19970530zfq.
+username=...
+passwd=...
 
 echo "开始创建库：$dbname 的表：$2"
 goctl model mysql datasource -url="${username}:${passwd}@tcp(${host}:${port})/${dbname}" -table="${tables}"  -dir="${modeldir}" --style=goZero
