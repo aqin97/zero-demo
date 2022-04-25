@@ -1,0 +1,6 @@
+Name: user-api
+Host: 0.0.0.0
+Port: 8888
+
+DB:
+  DataSource: root:19970530zfq.@tcp(47.100.21.38:3306)/zero_demo_user?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
